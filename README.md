@@ -1,5 +1,6 @@
 # E-Mail Classification NLP
-    This project aims to classify emails into spam or not spam using Natural Language Processing        (NLP) techniques. The project uses a dataset containing SMS messages that have already been         classified as spam or not spam.
+    This project aims to classify emails into spam or not spam using Natural Language Processing (NLP) techniques. 
+    The project uses a dataset containing SMS messages that have already been classified as spam or not spam.
 
 # Installation
     The following libraries need to be installed to run this project:
