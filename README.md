@@ -2,6 +2,29 @@
     This project aims to classify emails into spam or not spam using Natural Language Processing (NLP) techniques. 
     The project uses a dataset containing SMS messages that have already been classified as spam or not spam.
 
+# The NLP techniques used in this project include:
+    ## Text preprocessing:
+        Convert all characters to lowercase, remove stop words, punctuation, and apply stemming. 
+        This technique is used to clean the text data and reduce the number of unique words in the dataset.
+    ## CountVectorizer:
+         This technique is used to convert preprocessed text data into numerical feature vectors. 
+         CountVectorizer counts the frequency of each word in the text data and creates a feature vector for each document.
+    ## TfidfVectorizer:
+        This technique is used to convert preprocessed text data into numerical feature vectors. 
+        TfidfVectorizer calculates the term frequency-inverse document frequency (TF-IDF) of each word in the text data and creates 
+        a feature vector for each document.
+    ## Support Vector Machine (SVM):
+        SVM is a machine learning algorithm used for classification. 
+        SVM is trained on the feature vectors created by CountVectorizer and TfidfVectorizer to classify emails into spam or not spam.
+    ## Random Forest (RF): 
+        RF is a machine learning algorithm used for classification. 
+        RF is trained on the feature vectors created by CountVectorizer and TfidfVectorizer to classify emails into spam or not spam.
+    ## Accuracy, Precision, and Recall metrics: 
+        These metrics are used to evaluate the performance of the classifiers. 
+        Accuracy measures the percentage of correctly classified emails. 
+        Precision measures the percentage of correctly classified spam emails out of all classified spam emails. 
+        Recall measures the percentage of correctly classified spam emails out of all actual spam emails.    
+
 # Installation
     The following libraries need to be installed to run this project:
 
