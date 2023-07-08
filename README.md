@@ -13,8 +13,8 @@
       `pip install numpy pandas matplotlib nltk scikit-learn`
     Also, download the 'stopwords' corpus from nltk library using the following command in the 
     Python console:
-      `import nltk`
-      `nltk.download('stopwords')`
+      import nltk
+      nltk.download('stopwords')
 
 # Usage
     The project uses the following steps for email classification:
