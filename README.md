@@ -25,7 +25,7 @@
         Precision measures the percentage of correctly classified spam emails out of all classified spam emails. 
         Recall measures the percentage of correctly classified spam emails out of all actual spam emails.    
 
-        ![image](https://github.com/Magda-Elkot/Message_Classification/assets/121414067/48ccddf4-f4a0-4fa5-aa12-a9c9325f8170)
+![image](https://github.com/Magda-Elkot/Message_Classification/assets/121414067/d2bcfcfd-ab3c-4e0a-bbbd-1d15071b58b7)
 
 
 # Installation
